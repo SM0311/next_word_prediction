@@ -3,6 +3,25 @@
 ## Project Overview
 This project is a web application that predicts the next word in a sentence using a pre-trained GRU RNN model. The app enables users to input a sequence of words, and it generates the most likely next word based on the input text.
 
+## Model Training and Performance Comparison
+Two RNN architectures—GRU and LSTM—were trained for 50 epochs each. Here’s a comparison of their performances:
+
+# GRU Model:
+
+Epochs: 50
+Final Training Accuracy: 70.89%
+Final Validation Accuracy: 5.03%
+Validation Loss: 10.2304
+Observations: The GRU model achieved a reasonable training accuracy but showed lower validation accuracy, indicating potential overfitting on the training data.
+
+## LSTM Model:
+
+Epochs: 50
+Final Training Accuracy: 42.78%
+Final Validation Accuracy: 5.28%
+Validation Loss: 11.3288
+Observations: The LSTM model showed lower training accuracy than the GRU model but achieved a similar validation accuracy, suggesting the possibility of further tuning to improve generalization.
+
 ### Built With:
 - **TensorFlow/Keras** for loading the pre-trained GRU model.
 - **Streamlit** for creating an interactive web interface.
