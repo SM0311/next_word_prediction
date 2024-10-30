@@ -1,22 +1,22 @@
 # Next Word Prediction App
 
 ## Project Overview
-This project is a web application that predicts the next word in a sentence using a pre-trained LSTM (Long Short-Term Memory) model. The app enables users to input a sequence of words, and it generates the most likely next word based on the input text.
+This project is a web application that predicts the next word in a sentence using a pre-trained GRU RNN model. The app enables users to input a sequence of words, and it generates the most likely next word based on the input text.
 
 ### Built With:
-- **TensorFlow/Keras** for loading the pre-trained LSTM model.
+- **TensorFlow/Keras** for loading the pre-trained GRU model.
 - **Streamlit** for creating an interactive web interface.
 
 ## Features
 - **User Input**: Type in a partial sentence to receive a predicted next word.
-- **Next Word Prediction**: Uses a pre-trained LSTM model to generate the next word in the sequence.
+- **Next Word Prediction**: Uses a pre-trained GRU model to generate the next word in the sequence.
 - **Interactive UI**: Simple and responsive interface using Streamlit.
 
 ## Installation and Setup
 
 ### Prerequisites
 - Python 3.11
-- Virtual environment setup (optional but recommended)
+- Virtual environment setup
 
 ### Step 1: Clone the Repository
 ```bash
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### Step 4: Download the Pre-trained Model and Tokenizer
 
-Download the next_word_lstm.h5 model file and tokenizer.pickle file, and place them in the project directory. These files are essential for the next word predictions.
+Download the next_word_GRU.h5 model file and tokenizer.pickle file, and place them in the project directory. These files are essential for the next word predictions.
 
 
 ## Step 5: Run the Application
@@ -62,7 +62,7 @@ streamlit run app.py
 next-word-prediction-app/
 ├── app.py                 # Main Streamlit app code
 
-├── next_word_lstm.h5      # Pre-trained LSTM model (place in the root directory)
+├── next_word_GRU.h5      # Pre-trained LSTM model (place in the root directory)
 
 ├── tokenizer.pickle       # Tokenizer file (place in the root directory)
 
