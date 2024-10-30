@@ -87,6 +87,7 @@ streamlit run app.py
 ## Project Structure
 
 next-word-prediction-app/
+
 ├── app.py                 # Main Streamlit app code
 
 ├── next_word_GRU.h5      # Pre-trained LSTM model (place in the root directory)
