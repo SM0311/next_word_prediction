@@ -95,6 +95,7 @@ next-word-prediction-app/
 ├── tokenizer.pickle       # Tokenizer file (place in the root directory)
 
 ├── requirements.txt       # List of required Python packages
+
 └── README.md              # Project documentation
 
 ## Technologies Used
