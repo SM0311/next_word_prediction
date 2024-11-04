@@ -88,15 +88,15 @@ streamlit run app.py
 
 next-word-prediction-app/
 
-├── app.py                 # Main Streamlit app code
+├── app.py                                    # Main Streamlit app code
 
-├── next_word_GRU.h5      # Pre-trained LSTM model (place in the root directory)
+├── next_word_GRU.h5                          # Pre-trained LSTM model (place in the root directory)
 
-├── tokenizer.pickle       # Tokenizer file (place in the root directory)
+├── tokenizer.pickle                          # Tokenizer file (place in the root directory)
 
-├── requirements.txt       # List of required Python packages
+├── requirements.txt                          # List of required Python packages
 
-└── README.md              # Project documentation
+└── README.md                                 # Project documentation
 
 ## Technologies Used
 1. TensorFlow & Keras for model loading and prediction.
